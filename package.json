@@ -1,0 +1,32 @@
+{
+    "name": "database",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "bulid": "rm -rf ./build && gulp babel-transform",
+        "dev": "supervisor --harmony index.js",
+        "production": "node index.js --NODE_ENV=production"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "config-lite": "^2.1.0",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.16.2",
+        "express-session": "^1.15.6",
+        "mysql": "^2.15.0"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.1",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.16.0",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^7.0.0"
+    }
+}
