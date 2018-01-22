@@ -6,14 +6,14 @@
 
 ```
 |-- src/ # 源文件
-|   |-- /config # 配置文件
-|   |-- /lib # 辅助文件
+|   |-- config/ # 配置文件
+|   |-- lib/ # 辅助文件
 |       |-- mysql.js # 封装mysql方法
 |       |-- helper.js # 辅助函数
-|   |-- middlewares # 中间件函数
+|   |-- middlewares/ # 中间件函数
 |       |-- checkIdentity.js # 权限判断
 |       |-- chekIfLogin.js # 登录状态判断
-|   |-- routes # 路由配置
+|   |-- routes/ # 路由配置
 |-- build/ # babel后的文件
 |-- sql/ # 数据表
 |-- index.js # 文件入口
