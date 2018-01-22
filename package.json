@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "bulid": "rm -rf ./build && gulp babel-transform",
+        "build": "rm -rf ./build && gulp babel-transform",
         "dev": "supervisor --harmony index.js",
         "production": "node index.js --NODE_ENV=production"
     },
