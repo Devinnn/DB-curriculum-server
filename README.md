@@ -1,6 +1,6 @@
 ## 学生选修课管理系统
 
-采用`node`、`express`、`ES6`搭建后台服务器，结合`gulp`使用`babel`转码。
+采用`node`、`express`、`ES6`搭建后台服务器，结合`gulp`使用`babel`转码。数据库使用`mysql`，具体使用`node-mysql`。
 
 ### 目录结构
 
@@ -15,6 +15,7 @@
 |       |-- chekIfLogin.js # 登录状态判断
 |   |-- routes # 路由配置
 |-- build/ # babel后的文件
+|-- sql/ # 数据表
 |-- index.js # 文件入口
 |-- gulpfile.js # gulp配置文件
 |-- .babelrc # babel配置文件
